@@ -1,0 +1,49 @@
+.landingPageContainer {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  justify-content: center;
+}
+
+.landingPageInnerContainer {
+  overflow: hidden;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 12.2vmax;
+}
+
+.landingPageNameContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 100;
+  .nameText {
+    color: white;
+    font-family: FuturaM;
+    font-size: calc(80px + (88 - 80) * ((100vw - 300px) / (1600 - 300)));
+    letter-spacing: 0.7rem;
+    text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5);
+    font-weight: bold;
+  }
+  .developerText {
+    color: white;
+    font-family: Rajdhani, sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+    text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5);
+  }
+  .designerText {
+    width: max-content;
+    color: white;
+    font-family: FuturaB;
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+    text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5);
+  }
+}

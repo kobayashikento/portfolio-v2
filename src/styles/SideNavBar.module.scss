@@ -1,0 +1,22 @@
+.sideNavBarContainer {
+  position: fixed;
+  left: 36px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+
+.sideNavBarSingleBarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 16px;
+  cursor: pointer;
+}
+
+.sideNavBarSingleBar {
+  height: 3px;
+  background: white;
+  border-radius: 4px;
+  text-shadow: 0 10px 30px rgba(2, 11, 22, 0.5);
+}
